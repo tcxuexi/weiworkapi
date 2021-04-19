@@ -13,5 +13,10 @@
     {
         "name": "tcstudy",
         "email": "xuexi1998@163.com"
-    }]
+    }],
+    "autoload":
+    {
+        "classmap": ["api/src/"],
+        "files": ["utils/Utils.class.php","utils/HttpUtils.class.php"]
+    }
 }
